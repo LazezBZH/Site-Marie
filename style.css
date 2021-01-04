@@ -4,3 +4,32 @@
 * {
   font-family: "Raleway", sans-serif;
 }
+body {
+  background-image: url("images/fond.png");
+}
+header {
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0rem 2rem 20rem 2rem;
+}
+header p {
+  color: rgb(60, 60, 160);
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(60, 60, 160);
+  margin: 0;
+}
+p {
+  font-size: 1.2rem;
+  color: rgb(29, 49, 80);
+}
+.titre {
+  background-color: rgba(200, 220, 221, 0.1);
+  padding-top: 1.5rem;
+}
