@@ -11,25 +11,135 @@ header {
   background-image: url("images/header.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 0rem 2rem 20rem 2rem;
+  padding: 0rem 2rem 10rem 2rem;
 }
-header p {
-  color: rgb(60, 60, 160);
-  font-size: 2rem;
-  text-align: center;
-  margin: 0;
-}
+
 h1 {
   font-size: 3rem;
   text-align: center;
   color: rgb(60, 60, 160);
   margin: 0;
 }
-p {
-  font-size: 1.2rem;
-  color: rgb(29, 49, 80);
+.soush1 {
+  font-size: 2rem;
 }
 .titre {
   background-color: rgba(200, 220, 221, 0.1);
   padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/*nav*/
+
+#menu-demo2,
+#menu-demo2 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+#menu-demo2 {
+  margin-top: 5rem;
+}
+#menu-demo2 li {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+}
+#menu-demo2 ul li {
+  display: inherit;
+  border-radius: 0;
+}
+#menu-demo2 ul li:hover {
+  border-radius: 0;
+}
+#menu-demo2 ul li:last-child {
+  border-radius: 0 0 8px 8px;
+}
+#menu-demo2 ul {
+  position: absolute;
+  z-index: 1000;
+  max-height: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  -moz-transition: 0.8s all 0.3s;
+  -webkit-transition: 0.8s all 0.3s;
+  transition: 0.8s all 0.3s;
+}
+#menu-demo2 li:hover ul {
+  max-height: 15em;
+}
+/* background des liens menus */
+#menu-demo2 li:first-child {
+  background-color: #65537a;
+  background-image: -webkit-linear-gradient(top, #65537a 0%, #2a2333 100%);
+  background-image: linear-gradient(to bottom, #65537a 0%, #2a2333 100%);
+}
+#menu-demo2 li:nth-child(2) {
+  background-color: #729ebf;
+  background-image: -webkit-linear-gradient(top, #729ebf 0%, #333a40 100%);
+  background-image: linear-gradient(to bottom, #729ebf 0%, #333a40 100%);
+}
+#menu-demo2 li:nth-child(3) {
+  background-color: #b69665;
+  background-image: -webkit-linear-gradient(top, #b69665 0%, #706460 100%);
+  background-image: linear-gradient(to bottom, #b69665 0%, #706460 100%);
+}
+#menu-demo2 li:last-child {
+  background-color: #83a1a0;
+  background-image: -webkit-linear-gradient(top, #83a1a0 0%, #687749 100%);
+  background-image: linear-gradient(to bottom, #83a1a0 0%, #687749 100%);
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li {
+  background: #7ab1bb;
+}
+#menu-demo2 li:nth-child(2) li {
+  background: #7ab1bb;
+}
+#menu-demo2 li:nth-child(3) li {
+  background: #b69665;
+}
+#menu-demo2 li:last-child li {
+  background: #a2ac94;
+}
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover,
+#menu-demo2 li:first-child li:hover {
+  background: #a896bd;
+}
+#menu-demo2 li:nth-child(2):hover,
+#menu-demo2 li:nth-child(2) li:hover {
+  background: #31d9f7;
+}
+#menu-demo2 li:nth-child(3):hover,
+#menu-demo2 li:nth-child(3) li:hover {
+  background: #c5a57a;
+}
+#menu-demo2 li:last-child:hover,
+#menu-demo2 li:last-child li:hover {
+  background: #56a195;
+}
+/* les a href */
+#menu-demo2 a {
+  width: 12rem;
+  text-decoration: none;
+  display: block;
+  padding: 8px 32px;
+  color: #fff;
+  font-family: arial;
+  font-size: 2rem;
+}
+#menu-demo2 ul a {
+  font-size: 1.2rem;
+  padding: 8px 0;
+}
+#menu-demo2 li:hover li a {
+  color: #fff;
+  text-transform: inherit;
+}
+#menu-demo2 li:hover a,
+#menu-demo2 li li:hover a {
+  color: #000;
 }
