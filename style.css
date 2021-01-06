@@ -28,6 +28,13 @@ h1 {
 
   margin-top: 2rem;
 }
+p {
+  font-size: 1.2rem;
+  text-indent: 2rem;
+}
+li {
+  font-size: 1.2rem;
+}
 .soush1 {
   font-size: 2rem;
 }
@@ -36,7 +43,9 @@ h1 {
   padding-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
+mark {
+  background-color: rgb(222, 204, 235);
+}
 /*nav*/
 
 #menu-demo2,
@@ -183,4 +192,123 @@ h1 {
   padding: 0;
   margin: 0%;
   color: #5e5656;
+}
+/*index main*/
+.accueil {
+  display: flex;
+  justify-content: space-evenly;
+}
+.accueil p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.accueil section {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #e0e8fa;
+  border: 0.2rem solid #b6bdce;
+  border-radius: 1rem;
+}
+.accueil section:hover {
+  background-color: #cef0ed;
+}
+.accueil a {
+  text-decoration: none;
+  color: rgb(196, 143, 46);
+}
+
+/*sophrology*/
+.h2centre {
+  text-align: center;
+  color: #5e5656;
+  font-size: 2rem;
+}
+.sophro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+.sophro section {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #e0e8fa;
+  border: 0.2rem solid #b6bdce;
+  border-radius: 1rem;
+}
+.sophro section:hover {
+  background-color: #cef0ed;
+}
+.sophro1 {
+  display: flex;
+}
+.sophro1 img {
+  width: 18rem;
+  margin: 0 2rem;
+}
+/*enfants*/
+.imageflottante2 {
+  float: right;
+  width: 25rem;
+  transform: rotate(8deg);
+  transition-duration: 500ms;
+  padding: 0 0 0 2rem;
+  margin-right: 5rem;
+}
+.imageflottante2:hover {
+  transform: rotate(0deg);
+}
+/*teens*/
+.imageflottante3 {
+  float: right;
+  width: 25rem;
+  transform: rotate(-8deg);
+  transition-duration: 500ms;
+  padding: 0 0 0 2rem;
+  margin-right: 5rem;
+}
+.imageflottante3:hover {
+  transform: rotate(0deg);
+}
+/*adults*/
+.imageflottante4 {
+  float: right;
+  width: 18rem;
+  transform: rotate(8deg);
+  transition-duration: 1500ms;
+  padding: 0 0 5rem 15rem;
+  margin-right: 5rem;
+}
+.imageflottante4:hover {
+  transform: rotate(-8deg);
+}
+/*business*/
+.imageflottante5 {
+  float: right;
+  width: 14rem;
+}
+/*reiki*/
+.imageflottante6 {
+  float: right;
+  width: 25rem;
+  transform: rotate3d(0, 0, 0, 0deg);
+  transition-duration: 10s;
+  padding: 0 0 5rem 15rem;
+  margin-right: 5rem;
+}
+.imageflottante6:hover {
+  transform: rotate3d(150, 150, 150, 60deg);
+}
+
+.imageflottante7 {
+  float: right;
+  width: 25rem;
+  transform: rotate3d(0, 0, 0, 0deg);
+  transition-duration: 10s;
+  padding: 0 0 5rem 15rem;
+  margin-right: 5rem;
+}
+.imageflottante7:hover {
+  transform: rotate3d(150, 150, 150, -60deg);
 }

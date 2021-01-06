@@ -16,6 +16,14 @@ h1 {
   padding: 3rem 0;
   border-radius: 3rem;
 }
+p {
+  font-size: 1.3rem;
+  text-align: left;
+}
+li {
+  font-size: 1.3rem;
+  text-align: left;
+}
 .soush1 {
   font-size: 1.5rem;
 }
@@ -40,7 +48,30 @@ h1 {
 .aboutmeh2 {
   font-size: 2rem;
 }
-#aboutme {
-  font-size: 1.2rem;
-  padding: 1rem;
+#aboutme p {
+  font-size: 1.3rem;
+  padding: 0;
+  text-align: justify;
+  text-indent: 2rem;
+}
+/*index main*/
+.accueil {
+  display: block;
+}
+/*sophro*/
+.sophro1 {
+  display: block;
+}
+#zen img {
+  width: 15rem;
+}
+.imageflottante2,
+.imageflottante3,
+.imageflottante4,
+.imageflottante5,
+.imageflottante6,
+.imageflottante7 {
+  float: none;
+  width: 15rem;
+  padding: 0 0 0 2rem;
 }
