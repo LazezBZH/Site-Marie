@@ -1,10 +1,11 @@
 .logo img {
   width: 75%;
+  background-color: rgba(200, 220, 221, 0.6);
 }
 
 h1 {
   font-size: 3rem;
-  background-color: rgba(200, 220, 221, 0.6);
+
   padding: 0.1rem;
   border-radius: 3rem;
   margin: 5rem 3rem 2rem 3rem;
