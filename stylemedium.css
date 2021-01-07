@@ -49,3 +49,12 @@ li {
   font-size: 3rem;
   padding: 0;
 }
+
+/*footer*/
+#social-platforms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: visible;
+  justify-content: center;
+}

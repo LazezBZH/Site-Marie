@@ -81,3 +81,24 @@ li {
   padding: 0;
   margin: auto;
 }
+footer {
+  background-image: none;
+  background-color: rgb(240, 242, 245);
+  display: block;
+  border: 1rem none;
+  border-radius: 1rem;
+}
+#logofooterzero {
+  display: none;
+}
+.logofooter {
+  position: relative;
+  left: 20%;
+}
+#social-platforms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: visible;
+  justify-content: center;
+}
