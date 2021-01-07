@@ -54,6 +54,10 @@ li {
   text-align: justify;
   text-indent: 2rem;
 }
+.aboutme i {
+  position: relative;
+  left: 25%;
+}
 /*index main*/
 .accueil {
   display: block;
@@ -64,6 +68,7 @@ li {
 }
 #zen img {
   width: 15rem;
+  margin: auto;
 }
 .imageflottante2,
 .imageflottante3,
@@ -73,5 +78,6 @@ li {
 .imageflottante7 {
   float: none;
   width: 15rem;
-  padding: 0 0 0 2rem;
+  padding: 0;
+  margin: auto;
 }
