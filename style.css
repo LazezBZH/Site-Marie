@@ -44,7 +44,7 @@ li {
   margin-bottom: 1.5rem;
 }
 mark {
-  background-color: rgb(222, 204, 235);
+  background-color: rgb(207, 202, 248);
 }
 /*nav*/
 
@@ -312,6 +312,11 @@ mark {
 .imageflottante7:hover {
   transform: rotate3d(150, 150, 150, -60deg);
 }
+/*contact*/
+#sorry {
+  text-align: center;
+  font-size: 1.8rem;
+}
 /*footer*/
 footer {
   background-image: url("images/footer2.jpg");
@@ -340,6 +345,7 @@ footer {
   text-align: center;
   height: 5rem;
   overflow: hidden;
+  padding-top: 2rem;
 }
 
 /*Pen code from this point on*/
