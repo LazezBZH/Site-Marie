@@ -3,6 +3,10 @@
 
 * {
   font-family: "Raleway", sans-serif;
+  hyphens: manual;
+}
+.container {
+  max-width: 1440px;
 }
 body {
   background-image: url("images/fond.png");
@@ -186,6 +190,9 @@ mark {
   position: relative;
   left: 40%;
 }
+#aboutme:hover {
+  background-color: #cef0ed;
+}
 .aboutmeh2 {
   background-color: rgba(200, 220, 221, 0.2);
   text-align: center;
@@ -325,7 +332,7 @@ footer {
   background-repeat: no-repeat;
 
   padding: 2rem 0 5rem 0;
-  margin: 0;
+  margin: auto;
 }
 .logofooter img {
   background-color: rgba(200, 220, 221, 0.5);
