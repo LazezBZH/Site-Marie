@@ -9,10 +9,10 @@
   max-width: 1440px;
 }
 body {
-  background-image: url("images/fond.png");
+  background-image: url("/images/fond.png");
 }
 header {
-  background-image: url("images/header2.jpg");
+  background-image: url("/images/header2.jpg");
 
   background-repeat: repeat;
 
@@ -326,7 +326,7 @@ mark {
 }
 /*footer*/
 footer {
-  background-image: url("images/footer2.jpg");
+  background-image: url("/images/footer2.jpg");
   background-size: 100%;
   width: auto;
   background-repeat: no-repeat;
@@ -493,4 +493,94 @@ footer {
 
 .btn-contact > span {
   background: #b1946e;
+}
+/*page choix de langue*/
+.choix {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  color: rgb(115, 115, 145);
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(221, 136, 136), 0 0 1em rgb(144, 144, 240),
+    0 0 0.2em rgb(75, 234, 252);
+  margin: 0;
+  padding: 2rem 0 2rem 0;
+  -webkit-animation: linear defilant 5s infinite;
+  -moz-animation: linear defilant 5s infinite;
+  -o-animation: linear defilant 5s infinite;
+  -ms-animation: linear defilant 5s infinite;
+  animation: linear defilant 5s infinite;
+  overflow: hidden;
+}
+@-webkit-keyframes defilant {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  99.99% {
+    margin-left: -100%;
+  }
+}
+@-moz-keyframes defilant {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  99.99% {
+    margin-left: -100%;
+  }
+}
+@-o-keyframes defilant {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  99.99% {
+    margin-left: -100%;
+  }
+}
+@-ms-keyframes defilant {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  99.99% {
+    margin-left: -100%;
+  }
+}
+@keyframes defilant {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  99.99% {
+    margin-left: -100%;
+  }
+}
+.choix-langue {
+  display: flex;
+  justify-content: center;
+}
+.choix-langue img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+.choix-langue figure {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 3px 3px rgb(184, 180, 180), -1em 0 0.4em rgb(161, 161, 151);
+}
+.choix-langue figcaption {
+  background-color: rgb(247, 240, 233);
+  border: 0.2rem solid rgb(201, 169, 138);
+  border-radius: 0 0 1rem 1rem;
+
+  padding: 2rem;
+
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: rgb(115, 115, 145);
+}
+.choix-langue a {
+  text-decoration: none;
 }
