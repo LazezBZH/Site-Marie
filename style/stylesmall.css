@@ -42,12 +42,12 @@ li {
   font-size: 1.8rem;
 }
 /*about me*/
-.imageflottante {
+/*.imageflottante {
   float: none;
   width: 100%;
   transform: none;
   margin-left: -4.5rem;
-}
+}*/
 .aboutmeh2 {
   font-size: 2rem;
 }
@@ -73,6 +73,7 @@ li {
   width: 15rem;
   margin: auto;
 }
+.imageflottante,
 .imageflottante2,
 .imageflottante3,
 .imageflottante4,
@@ -125,4 +126,8 @@ footer {
   width: 100%;
   height: 10rem;
   object-fit: cover;
+}
+.choix {
+  white-space: nowrap;
+  overflow: hidden;
 }
