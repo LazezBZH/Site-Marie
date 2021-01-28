@@ -21,6 +21,15 @@ header {
 .logo img {
   background-color: rgba(200, 220, 221, 0.5);
 }
+.autrelangue {
+  text-decoration: none;
+  color: #000;
+  margin-right: 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  float: right;
+}
 h1 {
   font-size: 3rem;
   font-weight: bold;
