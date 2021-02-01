@@ -1,11 +1,17 @@
 .logo img {
-  width: 95%;
+  width: 80%;
   background-color: rgba(200, 220, 221, 0.7);
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
 * {
+  width: auto;
   hyphens: manual;
+}
+body {
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-size: auto;
@@ -42,12 +48,11 @@ li {
   font-size: 1.8rem;
 }
 /*about me*/
-/*.imageflottante {
-  float: none;
-  width: 100%;
-  transform: none;
-  margin-left: -4.5rem;
-}*/
+.imageflottante {
+  transform: rotate(8deg);
+  transition-duration: 500ms;
+  padding: 0 0 15rem 2rem;
+}
 .aboutmeh2 {
   font-size: 2rem;
 }
@@ -103,14 +108,12 @@ footer {
   display: block;
   border: 1rem none;
   border-radius: 1rem;
+  margin: 0;
 }
 #logofooterzero {
   display: none;
 }
-.logofooter {
-  position: relative;
-  left: 20%;
-}
+
 #social-platforms {
   display: flex;
   flex-direction: row;
