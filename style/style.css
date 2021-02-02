@@ -7,6 +7,8 @@
 }
 .container {
   max-width: 1440px;
+  padding: auto;
+  margin: auto;
 }
 body {
   background-image: url("/images/fond.png");
@@ -625,11 +627,47 @@ i {
     opacity: 0;
   }
 }
+@-moz-keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .loading div {
   position: absolute;
   left: 48%;
   top: 10rem;
   animation: loader ease-in-out 1s 4;
+  -moz-animation: loader ease-in-out 1s 4;
+  -webkit-animation: loader ease-in-out 1s 4;
+  -ms-animation: loader ease-in-out 1s 4;
+  -o-animation: loader ease-in-out 1s 4;
   background: #e4e2e2;
   width: 1.5rem;
   height: 3.5rem;
@@ -668,6 +706,10 @@ i {
 }
 .loading div:nth-child(7) {
   animation: loader ease-in-out 3.2s 1;
+  -moz-animation: loader ease-in-out 3.2s 1;
+  -webkit-animation: loader ease-in-out 3.2s 1;
+  -o-animation: loader ease-in-out 3.2s 1;
+  -ms-animation: loader ease-in-out 3.2s 1;
   color: #698d06;
   font-size: 1.5rem;
   text-align: center;
@@ -709,6 +751,30 @@ i {
   background: #f0e79b;
 }
 @keyframes invisible {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-moz-keyframes invisible {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes invisible {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-o-keyframes invisible {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-ms-keyframes invisible {
   100% {
     opacity: 0;
     visibility: hidden;
