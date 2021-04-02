@@ -680,3 +680,24 @@ footer {
 .choix-langue a {
   text-decoration: none;
 }
+
+.form {
+  width: 60%;
+  height: 27rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 3rem 3rem 0 0;
+}
+
+.contact figcaption {
+  font-size: large;
+  font-weight: bolder;
+  background-color: rgb(233, 226, 221);
+  width: 60%;
+  text-align: center;
+}
+.contact figure {
+  margin-left: 25%;
+  padding: auto;
+  border-radius: 3rem;
+}
