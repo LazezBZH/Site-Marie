@@ -136,11 +136,27 @@ li {
   object-fit: cover;
 }
 
-.form {
-  width: 80%;
-  height: 20rem;
+.form img {
+  width: 100%;
+  height: 28rem;
+  margin-top: 1rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 3rem;
+  -webkit-box-shadow: 3px 3px rgb(184, 180, 180),
+    -1em 0 0.4em rgb(161, 161, 151);
+  box-shadow: 3px 3px rgb(184, 180, 180), -1em 0 0.4em rgb(161, 161, 151);
 }
 
-.contact figcaption {
+.contact {
+  margin: auto;
   width: 80%;
+}
+
+.pform p {
+  font-size: large;
+  font-weight: bolder;
+  background-color: rgb(233, 226, 221);
+  width: 100%;
+  text-align: center;
 }
